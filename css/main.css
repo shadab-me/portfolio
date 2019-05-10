@@ -10,8 +10,8 @@ h1{
     font-family: Merriweather;
 }
 .header {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(../image/bgmain4.jpeg);
-     height: 820px;
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0.3)),url(../image/Aboutas.jpg);
+    height: 820px;
     background: cover;
     background-attachment: fixed;
     width: 100%;
