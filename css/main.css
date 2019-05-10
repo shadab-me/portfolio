@@ -41,7 +41,7 @@ h1{
     }
 
 #service-section{
-    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0.3)),url(../image/Aboutas.jpg);;
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0.3)),url(../image/Aboutas.jpg);
     background-attachment: fixed;
     background: cover;
     background-position: center;
