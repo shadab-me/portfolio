@@ -44,7 +44,7 @@ h1{
 }
 .darkhader{
     background-color: #001f3f;
-    transition: 2s ease;
+    transition: all 0.2s ease-in-out;
 }
 
 social-link ul {
