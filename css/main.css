@@ -46,15 +46,31 @@ h1{
     background-color: #001f3f;
     transition: 2s ease;
 }
+
+social-link ul {
+    display: flex;
+}
+
 .social-link ul li a{
-    font-size: 30px;
+    color: #fff;
+  font-size: 1.5rem; 
 
 }
+
+
+  .social-link ul li a{
+    transition: all 0.2s ease-in-out;
+      
+}
+
 .social-link ul li a:hover{
-    font-size: 40px;
+    
     transition: font-size 0.3s;
+    transform: scale(1.5);
+
     
 }
+
 
 
 #blogImg{
