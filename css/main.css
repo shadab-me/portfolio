@@ -32,6 +32,13 @@ h1{
 #ImgUser{
     border: 20px solid #7AD7F0;
 }
+@media screen and (max-width: 769px) {
+    .main-heading{
+        
+        position: absolute;
+        left: 20%;
+        
+    }
 
 #service-section{
     background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0.3)),url(../image/Aboutas.jpg);;
