@@ -1,0 +1,19 @@
+ .work{
+ width: 100%;
+ margin-top: 80px;
+ display: flex;
+ justify-content: space-between;
+ 
+}
+.work img{
+    width: 320px;
+    height:380px;
+    margin-left: 5px;
+    transition: all .5s ease-in;
+
+}
+.work img:hover{
+transform: scale(1.03);
+transition: all .5s ease-out;
+cursor: pointer;
+}
