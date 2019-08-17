@@ -3,17 +3,20 @@
  margin-top: 80px;
  display: flex;
  justify-content: space-between;
- 
+flex-wrap: wrap;
 }
-.work img{
+.project{
     width: 320px;
-    height:380px;
-    margin-left: 5px;
-    transition: all .5s ease-in;
+    height: 238px;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 5px;
 
+ }
+.work img{
+    width: 100%;
+    height: 100%; 
 }
 .work img:hover{
-transform: scale(1.03);
-transition: all .5s ease-out;
-cursor: pointer;
+ cursor: pointer;
 }

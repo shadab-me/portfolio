@@ -6,12 +6,15 @@
  .header{
      display: flex;
      justify-content: space-between;
+     position: relative;
+     padding: 20px 10px;
    }
 
 
  .logo{
      padding: 10px;
  }
+
 
  .nav ul li {
      list-style: none;
@@ -25,10 +28,11 @@
      text-decoration: none;
      display: block;
      padding: 10px;
+     color: red;
   }
  .nav ul li a:hover{
-     background-color: rgb(87, 58, 214);
+    background-color: rgb(87, 58, 214);
      border-radius: 10px;
      transition: all 0.5s ease-in;
      color: white;
- }
+  }

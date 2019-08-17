@@ -1,33 +1,57 @@
 import React from 'react';
 import './work.css';
-import project1 from '../asset/project1 (1).jpg'
-import project2 from '../asset/project1 (2).jpg'
-import project3 from '../asset/project1 (3).jpg'
-import project4 from '../asset/project1 (4).jpg'
-import project5 from '../asset/project1 (5).jpg'
+import advocate from '../asset/advocate.PNG';
+import bootstrapProjet from '../asset/bootstrap.PNG';
+import bootstrapProjet2 from '../asset/bootstrap2.PNG';
+import cssPractice from '../asset/css practice.PNG';
+import preview from '../asset/Preview.jpg';
+import product from '../asset/productlanding page.PNG';
+import rock from '../asset/rockpaper.PNG';
+
+
+
+
 
 
 
  const Works = function(){
     return(
             <section className ="work">
-            <div className = "project1">
-             <img src = {project1}></img>
+            
+        
+            <div className = "project2 project">
+             <img src = {bootstrapProjet}></img>
 
             </div>
-            <div className = "project2">
-             <img src = {project2}></img>
+            <div className = "project3 project">
+             <img src = {bootstrapProjet2}></img>
 
             </div>
-            <div className = "project3">
-             <img src = {project3}></img>
-
-            </div>
-            <div className = "project4">
-             <img src = {project4}></img>
-
+            <div className = "project4 project">
+             <img src = {cssPractice}></img>
             </div>
             
+
+            <div className = "project5 project">
+             <img src = {preview}></img>
+
+            </div>
+
+            <div className = "project1 project">
+             <img src = {advocate}></img>
+
+            </div>
+            <div className = "project6 project">
+             <img src = {product}></img>
+            </div>
+   
+            <div className = "project7 project">
+             <img src = {rock}></img>
+
+            </div>
+            <div className = "project3 project">
+             <img src = {bootstrapProjet2}></img>
+            </div>
             </section>
         )
     

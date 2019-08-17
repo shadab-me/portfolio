@@ -7,12 +7,30 @@
     justify-content: space-between;
   
 }
+.UserImg{
+    display: flex;
+    justify-content: space-between;
+
+}
+.UserInfo{
+    align-self: center;
+    width: 250px;
+    margin-left:20px;
+
+ }
 .UserImg img{
 border-radius: 50%;
 width: 240px;
 }
  .UserDescription{
      text-align: center;
-     padding: 20px;
-     align-self: center
+    padding: 30px;
+    align-self: center;
+ }
+ #talk a{
+ text-decoration: none;
+ color: red;
+ }
+ hr{
+     color: red;
  }

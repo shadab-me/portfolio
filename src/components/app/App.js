@@ -2,6 +2,8 @@
  import Nav from '../nav/nav';
  import User from '../user/user';
 import Work from '../work/work';
+import Contact from '../contact/contact'
+import Right from '../rights/right';
  class App extends React.Component{
    render(){
      return(
@@ -9,7 +11,8 @@ import Work from '../work/work';
        <Nav/>
        <User/>
        <Work/>
-       
+       <Contact/>
+       <Right/>
        </div>
        )
    }
