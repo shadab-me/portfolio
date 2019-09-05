@@ -20,3 +20,10 @@ flex-wrap: wrap;
 .work img:hover{
  cursor: pointer;
 }
+@media only screen and (max-width: 600px){
+    .work{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
