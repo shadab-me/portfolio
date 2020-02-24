@@ -17,13 +17,17 @@ flex-wrap: wrap;
 .work img{
     width: 100%;
     height: 100%;
+    
 }
+
 .work img:hover{
  cursor: pointer;
  transition: all 0.2s ease-out;
- transform: scale(1.02);
-
+ transform: scale(1.03);
+ overflow: hidden;
 }
+
+
 @media only screen and (max-width: 600px){
     .work{
         text-align: center;
